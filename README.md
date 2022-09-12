@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-> Comming soon...⏳
+> [Click here](https://abelg101.github.io/To-do-list-React/)
 
   
 
@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- use git clone in order to get the copy this repo. You need to have atleast basic understanding of JavaScript.
+- use git clone in order to get the copy this repo. You need to have atleast a basic understanding of JavaScript.
 
 
 ## Setup
@@ -58,7 +58,7 @@ After installing NodeJS please follow the next steps...
 -- To clone this project use:
 ```bash
 
-git clone https://github.com/AbelG101/math-magicians.git
+git clone https://github.com/AbelG101/To-do-list-React.git
 
 ```
 -- for installing dev dependecies use:
