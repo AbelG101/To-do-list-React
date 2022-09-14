@@ -81,10 +81,6 @@ body {
 
 /* sidebar Nav */
 
-.navBar {
-  width: 15%;
-}
-
 .menuNav {
   overflow-y: scroll;
   list-style: none;
@@ -113,6 +109,7 @@ a {
 .about__content {
   padding: 8rem 40px;
   display: flex;
+  width: 85%;
 }
 
 .about__list {
@@ -144,4 +141,30 @@ a {
 
 .main__content p {
   line-height: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  #root {
+    flex-direction: column;
+  }
+
+  .navBar {
+    width: 100%;
+  }
+
+  .menuNav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .menuNav li:first-child {
+    margin-top: 0;
+  }
+
+  .inner {
+    width: 100%;
+  }
 }
